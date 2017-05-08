@@ -7,7 +7,6 @@ use Buttress\ConcreteClient\Exception\TransactionException;
 
 trait TransactionTrait
 {
-
     private $transacting = false;
 
     public function __invoke(callable $transaction)

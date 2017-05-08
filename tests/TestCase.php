@@ -4,7 +4,6 @@ namespace Buttress\ConcreteClient;
 
 class TestCase extends \PHPUnit\Framework\TestCase
 {
-
     protected function requireFixture($fixture)
     {
         $file = dirname(__DIR__) . '/fixtures/' . $fixture;

@@ -6,5 +6,4 @@ use Buttress\ConcreteClient\Exception\Exception;
 
 class InvalidArgumentException extends Exception
 {
-
 }

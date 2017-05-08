@@ -7,7 +7,6 @@ use Buttress\ConcreteClient\Adapter\Adapter;
 
 class Concrete5 implements Client
 {
-
     protected $adapter;
 
     public function __construct(Adapter $adapter)

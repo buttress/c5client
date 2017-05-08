@@ -33,7 +33,7 @@ class Version6Adapter implements Adapter
 
         // Check if we've installed
         if (!file_exists($path . '/config/site.php')) {
-             throw new RuntimeException('Connecting to version 6 before installing is not supported.');
+            throw new RuntimeException('Connecting to version 6 before installing is not supported.');
         }
 
         // Create a new silent transaction to handle connecting to concrete5

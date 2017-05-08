@@ -9,7 +9,6 @@ use Buttress\ConcreteClient\TestCase;
  */
 class ModernConnectionTest extends TestCase
 {
-
     public function testConnects()
     {
         // Make it so that we can pass $this as our application

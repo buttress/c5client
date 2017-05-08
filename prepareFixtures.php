@@ -78,7 +78,6 @@ if (!is_dir('temp')) {
 
 foreach ($versions as $name => $version) {
     if ($version) {
-
         echo "Downloading version {$version['name']}...\n";
 
         $zip = "temp/{$name}.zip";

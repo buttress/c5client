@@ -4,7 +4,6 @@ namespace Buttress\ConcreteClient\Exception;
 
 class VersionMismatchException extends Exception
 {
-
     protected $expected = null;
     protected $given = null;
 

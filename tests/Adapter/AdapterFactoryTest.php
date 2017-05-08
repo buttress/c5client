@@ -6,7 +6,6 @@ use Buttress\ConcreteClient\TestCase;
 
 class AdapterFactoryTest extends TestCase
 {
-
     public function testCreatesFromSite()
     {
         require_once $this->requireFixture('adapter/Site.php');
