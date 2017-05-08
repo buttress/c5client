@@ -4,7 +4,6 @@ namespace Buttress\ConcreteClient\Transaction;
 
 class SilentTransaction implements Transaction
 {
-
     use TransactionTrait;
 
     public function __invoke(callable $transaction)

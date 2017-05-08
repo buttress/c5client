@@ -6,7 +6,6 @@ use Buttress\ConcreteClient\TestCase;
 
 class SilentTransactionTest extends TestCase
 {
-
     public function testDoesntOutput()
     {
         ob_start();

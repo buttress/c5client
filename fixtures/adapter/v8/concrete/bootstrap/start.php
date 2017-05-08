@@ -1,18 +1,22 @@
 <?php
 namespace Concrete\Core\Foundation\Runtime {
-    class Runtime {
+    class Runtime
+    {
         private $app;
-        public function __construct($app) {
+        public function __construct($app)
+        {
             $this->app = $app;
         }
-        public function boot() {
+        public function boot()
+        {
             $this->app->booted = true;
         }
     }
 }
 
 namespace Concrete\Core\Application {
-    class Application {
+    class Application
+    {
         public $booted = false;
         public function getRuntime()
         {
@@ -21,4 +25,3 @@ namespace Concrete\Core\Application {
     }
     return new Application;
 }
-

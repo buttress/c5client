@@ -6,5 +6,4 @@ use Buttress\ConcreteClient\Exception\RuntimeException;
 
 class TransactionException extends RuntimeException
 {
-
 }

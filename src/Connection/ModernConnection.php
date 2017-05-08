@@ -6,7 +6,6 @@ use Concrete\Core\Application\Application;
 
 class ModernConnection implements Connection
 {
-
     protected $application;
 
     /**

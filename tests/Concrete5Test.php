@@ -4,7 +4,6 @@ namespace Buttress\ConcreteClient;
 
 class Concrete5Test extends TestCase
 {
-
     public function testConnects()
     {
         $adapter = $this->getMockForAbstractClass(Adapter\Adapter::class);
