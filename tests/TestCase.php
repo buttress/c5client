@@ -9,7 +9,7 @@ class TestCase extends \PHPUnit\Framework\TestCase
     {
         $file = dirname(__DIR__) . '/fixtures/' . $fixture;
         if (!file_exists($file)) {
-            $this->markTestSkipped(sprintf('Directory "%s" not created, run `composer prepare_fixtures`', $directory));
+            $this->markTestSkipped(sprintf('Directory "%s" not created, run `composer prepare_fixtures`', $file));
         }
 
         if (is_dir($file) && file_exists($file . '/web')) {
