@@ -2,7 +2,6 @@
 
 namespace Buttress\ConcreteClient\Transaction;
 
-use Buttress\ConcreteClient\Exception\RuntimeException;
 use Buttress\ConcreteClient\Exception\TransactionException;
 
 trait TransactionTrait
