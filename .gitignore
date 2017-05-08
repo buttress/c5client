@@ -1,0 +1,8 @@
+build
+composer.lock
+vendor
+.idea
+fixtures/v6
+fixtures/v7
+fixtures/v8
+fixtures/temp
