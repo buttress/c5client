@@ -22,7 +22,7 @@ abstract class ModernAdapter implements Adapter
 
     /**
      * Get the connection to connect with
-     * @return \Buttress\ConcreteClient\Connection\Connection
+     * @return \Buttress\ConcreteClient\Connection\ModernConnection
      */
     abstract protected function createConnection();
 
