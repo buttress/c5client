@@ -14,9 +14,6 @@ sudo: false
 cache:
   directories:
     - $HOME/.composer/cache
-    - fixtures/v6
-    - fixtures/v7
-    - fixtures/v8
 
 matrix:
   include:
